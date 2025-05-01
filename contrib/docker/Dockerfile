@@ -8,7 +8,7 @@ RUN corepack enable && corepack prepare yarn@stable --activate
 
 RUN yarn install
 RUN yarn tsc
-RUN yarn build
+RUN yarn build:all
 RUN yarn build:backend
 
 EXPOSE 7007
