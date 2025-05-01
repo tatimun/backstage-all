@@ -1,9 +1,7 @@
 .git
 .yarn/cache
 .yarn/install-state.gz
-docs
 microsite
 node_modules
-packages/*/src
+# packages/*/node_modules está bien ignorarlo
 packages/*/node_modules
-plugins
